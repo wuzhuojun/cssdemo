@@ -17,3 +17,14 @@ table tr td
 {
     color: #ff261c;
 }
+
+div.normal
+{
+
+}
+
+div.pos_right
+{
+    position: relative;
+    left: 20px;
+}
