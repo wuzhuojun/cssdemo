@@ -3,8 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+    <link rel="stylesheet" href="index.css">
+
+
+    <!-- 内部样式 -->
+    <style>
+
+        strong{
+            color: #ff261c;
+        }
+
+        p strong
+        {
+            font-family: "Apple Braille";
+            font-size: larger;
+            color: #0026f1;
+        }
+
+        <!-- 插入图片 -->
+        span div {
+            background-image: url(1.jpg);
+        }
+    </style>
 </head>
 <body>
+
+<strong>i am here</strong>
+
+<!-- 内联样式 -->
+<p style="background-color: aquamarine">hello <strong>world</strong>!!</p>
+
+
+<span><div>hello wuage</div></span>
+
+
+<!-- 读取了 index.css 的 id 选择器 -->
+<div id="red">hello andy</div>
+
+
+<!-- 类选择器 -->
+<div class="green">hello i am green color</div>
+
+<p></p>
+
+
+<div class="green">
+    i am big size and green
+</div>
+
+
+<ul>
+    <li>语文</li>
+    <li>数学</li>
+    <li>英语</li>
+</ul>
+
+<table>
+    <tr>
+        <th>语文</th>
+        <th>数学</th>
+    </tr>
+    <tr>
+        <td>60分</td>
+        <td>90分</td>
+    </tr>
+</table>
 
 </body>
 </html>
