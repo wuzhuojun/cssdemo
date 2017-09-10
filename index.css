@@ -28,3 +28,23 @@ div.pos_right
     position: relative;
     left: 20px;
 }
+
+div.abs_right{
+    position: absolute;
+    left: 20px;
+}
+
+#container{
+    margin: 50px auto;
+    background-color: aliceblue;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    border: solid;
+    line-height: 50px;
+    vertical-align: middle;
+    display: inline-block;
+
+}
